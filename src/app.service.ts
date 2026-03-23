@@ -7,9 +7,8 @@ export class AppService {
   }
 }
 
-@Injectable()
 export class UserService {
   test(): string[] {
-    return []
+    return [];
   }
 }
