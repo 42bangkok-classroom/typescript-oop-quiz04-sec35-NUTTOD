@@ -5,7 +5,10 @@ export class AppService {
   getHello(): string {
     return 'Welcome to NestJS!';
   }
+}
 
+@Injectable()
+export class UserService {
   test(): string[] {
     return [];
   }
