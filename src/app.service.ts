@@ -6,10 +6,3 @@ export class AppService {
     return 'Welcome to NestJS!';
   }
 }
-
-@Injectable()
-export class UserService {
-  test(): string[] {
-    return [];
-  }
-}
