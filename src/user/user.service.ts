@@ -13,6 +13,6 @@ export class UserService {
     const filepath = path.join(process.cwd(), 'data', 'users.json');
 
     const data = fs.readFileSync(filepath, 'utf-8');
-    return JSON.parse(data);
+    return JSON.parse(data) as InterUser[];
   }
 }
