@@ -2,7 +2,6 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InterUser } from './user.interface';
 import * as fs from 'fs';
 import * as path from 'path';
-import { NotFoundError } from 'rxjs';
 
 @Injectable()
 export class UserService {
