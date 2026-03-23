@@ -14,7 +14,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('user/test')
+  @Get('users/test')
   getUser(): string[] {
     return this.userService.test();
   }
