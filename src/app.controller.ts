@@ -11,11 +11,12 @@ export class AppController {
   }
 }
 
+@Controller()
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
   @Get('users/test')
-  UserController(): string[] {
+  getUser(): string[] {
     return this.userService.test();
   }
 }
