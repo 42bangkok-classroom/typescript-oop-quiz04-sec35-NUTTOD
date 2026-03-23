@@ -16,7 +16,7 @@ export class UserService {
     return JSON.parse(data) as InterUser[];
   }
 
-  findOne(id: string, fields?: string): Partial<InterUser> {
+  findOne(id: string, fields?: string[]): Partial<InterUser> {
     const users = this.findAll();
     const user = users.find((u) => u.id === id);
 
@@ -25,10 +25,9 @@ export class UserService {
     }
 
     if (fields) {
-      const fieldsArray = fields.split(',');
       const filteredUser: Partial<InterUser> = {};
 
-      fieldsArray.forEach((field) => {
+      fields.forEach((field) => {
         if (user[field as keyof InterUser] !== undefined) {
           filteredUser[field as keyof InterUser] =
             user[field as keyof InterUser];
