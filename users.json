@@ -78,28 +78,7 @@
   },
   {
     "id": "12",
-    "firstName": "ทดสอบ",
-    "lastName": "ระบบ",
-    "email": "test@example.com",
-    "username": "test_user"
-  },
-  {
-    "id": "13",
-    "firstName": "ทดสอบ",
-    "lastName": "ระบบ",
-    "email": "test@example.com",
-    "username": "test_user"
-  },
-  {
-    "id": "14",
-    "firstName": "ทดสอบ",
-    "lastName": "ระบบ",
-    "email": "test@example.com",
-    "username": "test_user"
-  },
-  {
-    "id": "15",
-    "firstName": "ทดสอบ",
+    "firstName": "ทดสอsบ",
     "lastName": "ระบบ",
     "email": "test@example.com",
     "username": "test_user"
